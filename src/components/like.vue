@@ -14,5 +14,7 @@
 </script>
 
 <style scoped>
+.order-detail {
 @import url('../assets/css/like.css');
+}
 </style>

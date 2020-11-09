@@ -1,39 +1,33 @@
-#show .el-carousel__item h3 {
-  color: #475669;
-  font-size: 14px;
-  opacity: 0.75;
-  line-height: 150px;
-  margin: 0;
-}
 
-#show .el-carousel__item:nth-child(2n) {
-   background-image: url(../img/背景2.jpg);
-   background-size: cover;
-   -webkit-background-size: cover;
-   -o-background-size: cover;
-   background-position: center 0;
-   mix-blend-mode: overlay;
+#show .el-carousel__item img{
+   width: 100vw;
+   height: 500px;
+   position: relative;
+    object-fit: cover;
+}
+#show .el-carousel__item ul{
    display: flex;
 }
-
-#show .el-carousel__item:nth-child(2n+1) {
-   background-image: url(../img/背景1.jpg);
-   background-size: cover;
-   -webkit-background-size: cover;
-   -o-background-size: cover;
-   background-position: center 0;
-   mix-blend-mode: overlay;
-   display: flex;
+#show .el-carousel__item #picshow{
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    margin-left: -40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: inline-block;
 }
 
-#show .Test{
-   display: inline-block;
-   height: 400px;
+#show .el-carousel__item #picshow .case_info {
+   margin-bottom: 5px;
+   position: absolute;
+   bottom: 0px;
+   color: #b7bcc2;
+   transition: all .5s;
+   background-image: linear-gradient(rgba(255, 255, 255, 0),rgb(19, 23, 34));
    width: 100%;
-   z-index: 3;
-   
-   background-image: linear-gradient(rgb(97, 97, 97),rgba(255, 255, 255, 0));
- }
+   height: 450px;
+}
 #show .el-carousel__container{
    overflow-y:hidden;
    overflow-x: hidden;

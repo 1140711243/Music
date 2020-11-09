@@ -150,6 +150,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.order-detail {
  @import url('../assets/css/playlists.css');
+}
 </style>

@@ -300,6 +300,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.order-detail {
    @import url('../assets/css/result.css');
+}
 </style>

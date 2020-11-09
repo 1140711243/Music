@@ -1,20 +1,18 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
-import App from './App'
-import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import animated from 'animate.css'
 import MuseUI from 'muse-ui'
 import 'muse-ui/dist/muse-ui.css'
 import axios from 'axios'
-import VueLazyLoad from 'vue-lazyload' // 懒加载
 import wow from 'wowjs'
 import 'animate.css/animate.min.css'
-// import Vuex from 'vuex'
+import App from './App'
+import VueLazyLoad from 'vue-lazyload' // 懒加载
+import router from './router'
 import store from '@/store'
-// Vue.use(Vuex)
 Vue.prototype.$wow = wow
 Vue.use(VueLazyLoad, {
   error: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2033364728,2158601596&fm=26&gp=0.jpg', // 加载错误的图片
